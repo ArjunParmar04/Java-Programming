@@ -6,7 +6,7 @@ public class Factorial {
         System.out.print("Enter number to get the factorial : ");
         int num = sc.nextInt();
 //        System.out.println(fact(num));
-        System.out.println(fact1(num));
+        System.out.println("Factorial of a number is : " + fact1(num));
     }
 
 
