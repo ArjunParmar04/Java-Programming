@@ -16,6 +16,6 @@ public class NumberSystems {
 //        System.out.println(f);
 //        for (char z = 0x0370;z <= 0x03FF; z++){
 //            System.out.print(z + " ");
-        }
     }
+}
 

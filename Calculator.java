@@ -11,20 +11,20 @@ public class Calculator {
         System.out.print("Enter Oprator : ");
         char op = sc.next().charAt(0);
 
-        switch (op){
-            case '+' :
+        switch (op) {
+            case '+':
                 System.out.println("The sum is : " + (n1 + n2));
                 break;
-            case '-' :
+            case '-':
                 System.out.println("The Substraction is : " + (n1 - n2));
                 break;
-            case '*' :
+            case '*':
                 System.out.println("The Multiplication is : " + (n1 * n2));
                 break;
-            case '/' :
+            case '/':
                 if (n2 != 0) {
                     System.out.println("The Division is : " + (n1 / n2));
-                }else {
+                } else {
                     System.out.println("The Division is : 0");
                 }
                 break;

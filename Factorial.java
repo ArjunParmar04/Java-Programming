@@ -11,21 +11,21 @@ public class Factorial {
 
 
     //simple method
-    static int fact(int num){
+    static int fact(int num) {
         int ans = 1;
-        for (int i = 1; i <= num; i++){
+        for (int i = 2; i <= num; i++) {
             ans *= i;
         }
         return ans;
     }
 
     //using recursion
-    static int fact1(int num){
-        if (num == 0){
+    static int fact1(int num) {
+        if (num == 0) {
             return 1;
         }
 
-        return (num * fact1(num-1));
+        return (num * fact1(num - 1));
     }
 
 }

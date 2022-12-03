@@ -6,7 +6,7 @@ public class TskeInputAndSum {
         System.out.println("The Sum is " + ans);
     }
 
-    static int takeInputAndSum(){
+    static int takeInputAndSum() {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter Num 1 : ");
         int num1 = sc.nextInt();

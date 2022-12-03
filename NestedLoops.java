@@ -17,15 +17,16 @@ public class NestedLoops {
 
 
     //print (1,1) to (5,5) with nested loop
-    static void prt(){
-        for (int i = 1; i <= 5; i++){
-            for (int j = 1; j <= 5; j++){
+    static void prt() {
+        for (int i = 1; i <= 5; i++) {
+            for (int j = 1; j <= 5; j++) {
                 System.out.print("(" + i + ", " + j + ")");
             }
             System.out.println();
         }
     }
-    static void ptrn1(){
+
+    static void ptrn1() {
         for (int i = 1; i <= 5; i++) {
             for (int j = 1; j <= 5; j++) {
                 System.out.print(j);
@@ -34,7 +35,7 @@ public class NestedLoops {
         }
     }
 
-    static void ptrn2(){
+    static void ptrn2() {
         for (int i = 1; i <= 5; i++) {
             for (int j = 1; j <= i; j++) {
                 System.out.print(j);
@@ -42,7 +43,8 @@ public class NestedLoops {
             System.out.println();
         }
     }
-    static void ptrn3(){
+
+    static void ptrn3() {
         for (int i = 1; i <= 5; i++) {
             for (int j = 1; j <= i; j++) {
                 System.out.print(i);
@@ -51,7 +53,7 @@ public class NestedLoops {
         }
     }
 
-    static void ptrn4(){
+    static void ptrn4() {
         for (int i = 1; i <= 5; i++) {
             for (int j = 5; j >= i; j--) {
                 System.out.print(i);
@@ -59,7 +61,8 @@ public class NestedLoops {
             System.out.println();
         }
     }
-    static void ptrn5(){
+
+    static void ptrn5() {
         for (int i = 1; i <= 5; i++) {
             for (int j = 1; j <= 5; j++) {
                 System.out.print(i);
@@ -67,7 +70,8 @@ public class NestedLoops {
             System.out.println();
         }
     }
-    static void ptrn6(){
+
+    static void ptrn6() {
         for (int i = 1; i <= 5; i++) {
             for (int j = 1; j <= 5; j++) {
                 System.out.print(i + j + " ");
@@ -76,10 +80,10 @@ public class NestedLoops {
         }
     }
 
-    static void ptrn7(){
+    static void ptrn7() {
         int count = 1;
-        for (int i = 1; i <= 5; i++){
-            for (int j = 1; j <= i; j++){
+        for (int i = 1; i <= 5; i++) {
+            for (int j = 1; j <= i; j++) {
                 System.out.print(count + " ");
                 count++;
             }
@@ -87,49 +91,52 @@ public class NestedLoops {
         }
     }
 
-    static void ptrn8(){
-        for (int i = 1; i <= 5; i++){
-            for (int j = 1; j <= i; j++){
-                System.out.print("* ");
-            }
-            System.out.println();
-        }
-    }
-    static void ptrn9(){
-        for (int i = 1; i <= 5; i++){
-            for (int j = 1; j <= 5-i+1; j++){
-                System.out.print(j + " ");
-            }
-            System.out.println();
-        }
-    }
-    static void ptrn10(){
-        for (int i = 1; i <= 5; i++){
-            for (int j = 1; j <= 5-i+1; j++){
+    static void ptrn8() {
+        for (int i = 1; i <= 5; i++) {
+            for (int j = 1; j <= i; j++) {
                 System.out.print("* ");
             }
             System.out.println();
         }
     }
 
-    static void ptrn11(){
-        for (int i = 1; i <= 5; i++){
-            for (int j = 1; j <= 5; j++){
-                if (j >= i){
+    static void ptrn9() {
+        for (int i = 1; i <= 5; i++) {
+            for (int j = 1; j <= 5 - i + 1; j++) {
+                System.out.print(j + " ");
+            }
+            System.out.println();
+        }
+    }
+
+    static void ptrn10() {
+        for (int i = 1; i <= 5; i++) {
+            for (int j = 1; j <= 5 - i + 1; j++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+
+    static void ptrn11() {
+        for (int i = 1; i <= 5; i++) {
+            for (int j = 1; j <= 5; j++) {
+                if (j >= i) {
                     System.out.print("* ");
-                }else {
+                } else {
                     System.out.print("  ");
                 }
             }
             System.out.println();
         }
     }
-    static void ptrn12(){
-        for (int i = 1; i <= 5; i++){
-            for (int j = 1; j <= 5; j++){
-                if (i + j > 5){
+
+    static void ptrn12() {
+        for (int i = 1; i <= 5; i++) {
+            for (int j = 1; j <= 5; j++) {
+                if (i + j > 5) {
                     System.out.print("* ");
-                }else {
+                } else {
                     System.out.print("  ");
                 }
             }

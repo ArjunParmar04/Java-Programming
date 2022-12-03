@@ -21,9 +21,9 @@ public class EasyTasks {
         return count;
     }
 
-    static int reverse(int n){
+    static int reverse(int n) {
         int ans = 0;
-        while(n > 0 ){
+        while (n > 0) {
             int rem = n % 10;
             ans = ans * 10 + rem;
             n = n / 10;
@@ -31,33 +31,34 @@ public class EasyTasks {
         return ans;
     }
 
-    static int sumOfDigits(int n){
+    static int sumOfDigits(int n) {
         int ans = 0;
-        while(n > 0){
+        while (n > 0) {
             int rem = n % 10;
             ans += rem;
             n = n / 10;
         }
         return ans;
     }
-    static String armstrong(int n ){
+
+    static String armstrong(int n) {
         int ans = 0;
         int n1 = n;
-        while (n > 0){
+        while (n > 0) {
             int r = n % 10;
             ans += (r * r * r);
             n /= 10;
-            if (ans == n1){
+            if (ans == n1) {
                 return "Armstrong";
             }
         }
         return "Not Armstrong";
     }
 
-    static boolean polindrome(int n){
+    static boolean polindrome(int n) {
         int ans = 0;
         int num = n;
-        while(n > 0 ){
+        while (n > 0) {
             int rem = n % 10;
             ans = ans * 10 + rem;
             n = n / 10;

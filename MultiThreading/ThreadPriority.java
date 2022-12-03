@@ -1,10 +1,7 @@
 package MultiThreading;
 
-public class ThreadPriority extends Thread{
+public class ThreadPriority extends Thread {
 
-    public void run(){
-        System.out.println("Hello");
-    }
     public static void main(String[] args) {
         ThreadPriority t1 = new ThreadPriority();
         ThreadPriority t2 = new ThreadPriority();
@@ -17,5 +14,9 @@ public class ThreadPriority extends Thread{
         System.out.println("Current Thread : " + Thread.currentThread().getPriority());
 
         System.out.println("t3 priority : " + t3.getPriority());
+    }
+
+    public void run() {
+        System.out.println("Hello");
     }
 }

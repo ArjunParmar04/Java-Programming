@@ -1,3 +1,5 @@
+package Arrays;
+
 import java.util.Scanner;
 import java.util.ArrayList;
 
@@ -16,5 +18,5 @@ public class ArrayList1 {
         }
 
         System.out.println(list);
-     }
+    }
 }

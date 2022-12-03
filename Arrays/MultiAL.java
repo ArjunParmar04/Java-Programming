@@ -1,3 +1,5 @@
+package Arrays;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -5,10 +7,10 @@ public class MultiAL {
     public static void main(String[] args) {
 
 
-    Scanner in = new Scanner(System.in);
-    ArrayList<ArrayList<Integer>> list = new ArrayList<>();
+        Scanner in = new Scanner(System.in);
+        ArrayList<ArrayList<Integer>> list = new ArrayList<>();
 
-    //Initialisaion
+        //Initialisaion
         for (int i = 0; i < 3; i++) {
             list.add(new ArrayList<>());
         }
@@ -20,5 +22,5 @@ public class MultiAL {
             }
         }
         System.out.println(list);
-}
+    }
 }
